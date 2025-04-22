@@ -96,7 +96,8 @@
   </p>
   <div class="tagline">Built by Footballers, For Footballers</div>
 
-  <form name="waitlist" method="POST" data-netlify="true">
+  <form name="waitlist" method="POST" data-netlify="true" action="/thank-you.html">
+  <input type="hidden" name="form-name" value="waitlist">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
     <select name="role" required>
